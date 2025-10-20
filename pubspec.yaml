@@ -1,0 +1,57 @@
+name: ltn_app
+description: LTN Trial Reset - Cursor & Warp Terminal Reset Tool
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # UI & Icons
+  cupertino_icons: ^1.0.6
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # File & Path
+  path_provider: ^2.1.1
+  path: ^1.8.3
+  
+  # Database
+  sqflite: ^2.3.0
+  sqflite_common_ffi: ^2.3.0
+  
+  # HTTP & Network
+  http: ^1.1.0
+  
+  # File Picker
+  file_picker: ^6.1.1
+  file_selector: ^1.0.3
+  
+  # Platform
+  win32: ^5.1.0
+  ffi: ^2.1.0
+  
+  # Utils
+  crypto: ^3.0.3
+  uuid: ^4.2.2
+  shared_preferences: ^2.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/images/cursor.png
+    - assets/images/warp.png
+    - assets/images/logo.png
+    - assets/images/avatar.jpg
+
