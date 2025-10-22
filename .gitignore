@@ -1,0 +1,54 @@
+# Flutter Build Output
+build/
+*.dll
+*.exe
+*.so
+*.so.*
+
+# Screenshots & Generated Files
+*.png
+*.jpg
+*.jpeg
+fullscreen_screenshot.png
+ltnapp_screenshot.png
+region.png
+button.png
+
+# Mouse Position Logs
+mouse_positions.txt
+auto_click.ps1
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Build artifacts
+data/
+launcher/
+Linux/
+Window/
+
+
