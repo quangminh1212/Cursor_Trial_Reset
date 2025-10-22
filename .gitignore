@@ -6,13 +6,17 @@ build/
 *.so.*
 
 # Screenshots & Generated Files
-*.png
-*.jpg
-*.jpeg
+ltn_region_*.png
+ltn_window_*.png
+ltn_fullscreen_*.png
+ltn_screen_*.png
+ltn_after_open_*.png
+LTN_Screenshot_*.png
 fullscreen_screenshot.png
 ltnapp_screenshot.png
 region.png
 button.png
+*.tmp.png
 
 # Mouse Position Logs
 mouse_positions.txt
